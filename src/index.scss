@@ -1,0 +1,14 @@
+@import './styles/mixins';
+@import './styles/reset';
+
+html {
+  font-size: 62.5%
+}
+
+#root {
+  @include flex(row, center, center, nowrap);
+  background-color: rgb(139, 132, 122);
+  width: 100vw;
+  height: 100vh;
+}
+
