@@ -1,0 +1,32 @@
+@import "./variables";
+
+@mixin flex($flex-direction, $justify-content, $align-items, $flex-wrap) {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: $flex-direction;
+  justify-content: $justify-content;
+  align-items: $align-items;
+  flex-wrap: $flex-wrap;
+}
+
+@mixin font(
+  $font-family,
+  $font-style,
+  $font-weight,
+  $font-size,
+  $line-height,
+  $letter-spacing,
+  $color
+) {
+  font-family: $font-family;
+  font-style: $font-style;
+  font-weight: $font-weight;
+  font-size: $font-size;
+  line-height: $line-height;
+  letter-spacing: $letter-spacing;
+  color: $color;
+}
+
