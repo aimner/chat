@@ -1,6 +1,6 @@
 @import '../../styles/mixins';
 
 .app {
-    @include flex(row, center, center, nowrap);
-    
+    @include flex(row, space-between, center, nowrap);
+    height: 100%;
 }
